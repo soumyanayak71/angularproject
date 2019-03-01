@@ -1,0 +1,20 @@
+<h1>Enter XML Details</h1>
+<div class="form-data">
+  <form [formGroup]="xmlDataForm" (ngSubmit)="SubmitForm()">
+    <label >
+      File Name:
+      <input type="text" formControlName="fileName" required> <br>
+    </label>
+    <label >
+      XML Content: <br>
+      <textarea rows="4" cols="40" formControlName="fileValue" required> </textarea> <br>
+    </label>
+    <button type="submit" class="right">Submit</button>
+  </form>
+</div>
+<div *ngIf="downloadButton" class="form-data">
+  <label> Download Zip File:
+    <button (click)="downloadFile()">Download</button>
+  </label>
+</div>
+

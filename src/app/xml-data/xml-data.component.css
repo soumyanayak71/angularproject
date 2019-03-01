@@ -1,0 +1,30 @@
+div.form-data{
+  width: 472px;
+  padding: 25px;
+  margin: 25px;
+  background-color: PowderBlue;
+}
+div.form-data:hover{
+  box-shadow: 4px 4px LightGray;
+}
+label {
+  line-height: 1.75;
+  font-family: Monospace;
+  color: WhiteSmoke;
+  font-size: 15px;
+}
+h1{
+  width: 500px;
+  padding: 10px;
+  margin: 25px;
+  background-color: PowderBlue;
+  text-indent: 25px;
+  color: WhiteSmoke;
+  font-size:40px;
+  font-family:Monospace;
+}
+button.right {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
